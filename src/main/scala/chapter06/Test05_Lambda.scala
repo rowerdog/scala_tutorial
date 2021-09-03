@@ -30,5 +30,19 @@ object Test05_Lambda {
     //函数的参数是一种类型的操作
     f(println)
 
+    println("================")
+    //定义一个函数，只操作1和2两个数，具体的操作由参数传入进来
+
+    def dualFunctionOneAndTwo(func: (Int,Int)=>Int): Int={
+      func(1,2)
+    }
+
+    val add = (a: Int,b: Int)=>a+b
+    val minus = (a: Int,b: Int)=>a-b
+
+    println(dualFunctionOneAndTwo(add))
+    println(dualFunctionOneAndTwo(minus))
+    println(dualFunctionOneAndTwo((a,b)=>a*b))
+
   }
 }
