@@ -10,6 +10,7 @@ import scala.collection.mutable.ListBuffer
   */
 object Test05_ListBuffer {
   def main(args: Array[String]): Unit = {
+    //可变列表
 
 
     //1.创建可变列表
