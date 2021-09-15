@@ -34,7 +34,7 @@ object Test15_HighLevelFunction_reduce {
 
     println(list.fold(10)(_+_))     //10 + 1 + 2 + 3+ 4
 
-    println(list.fold(10))
+    //println(list.fold(10))
 
   }
 }
